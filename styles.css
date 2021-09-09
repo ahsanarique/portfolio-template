@@ -29,6 +29,12 @@ body {
   box-sizing: border-box;
 }
 
+header,
+main,
+footer {
+  padding: 0px 18vw;
+}
+
 /* Navigation rules */
 
 .navigation {
@@ -54,7 +60,6 @@ nav > div > a {
 
 .hero-section {
   background-image: var(--header-bg);
-  padding: 0px 18vw;
 }
 
 .main-header {
@@ -73,6 +78,7 @@ nav > div > a {
 }
 
 .hero-paragraph {
+  margin-bottom: 40px;
   width: 70%;
   font-family: "Inter", sans-serif;
   font-size: 22px;
@@ -80,7 +86,18 @@ nav > div > a {
   line-height: 160%;
 }
 
-/* Primary and secondary buttons */
+/* Primary and secondary buttons and text color */
+
+.light-text {
+  color: var(--white);
+}
+.dark-text {
+  color: var(--dark-1);
+}
+
+.paragraph-text {
+  color: var(--dark-2);
+}
 
 .btn {
   border-radius: 8px;
@@ -93,7 +110,7 @@ nav > div > a {
 .btn-primary {
   padding: 18px 24px;
   background-color: var(--dark-1);
-  color: var(--white);
+
   border: none;
 }
 
@@ -101,5 +118,52 @@ nav > div > a {
   padding: 14px 22px;
   background-color: transparent;
   border: 1px solid var(--light-dark);
+}
+
+/* Secondary headers */
+
+.header-secondary {
+  font-family: var(--large-font);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 125%;
+}
+
+.header-small {
+  font-family: var(--large-font);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
   color: var(--dark-2);
+}
+
+/* Services section */
+
+.services {
+  margin-top: 214px;
+}
+
+.service-list {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  margin: 0px 30px 30px 0px;
+  max-width: 370px;
+  max-height: 402px;
+  text-align: center;
+  background-color: var(--white);
+  border: none;
+  padding: 50px 20px;
+  box-shadow: 0px 45px 80px rgba(0, 0, 0, 0.04);
+}
+
+.service-paragraph {
+  color: #0a2533;
+  font-family: var(--small-font);
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 28px;
 }
