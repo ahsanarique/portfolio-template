@@ -50,6 +50,10 @@ footer {
   display: flex;
 }
 
+#no-margin {
+  margin: 0;
+}
+
 nav > div > a {
   margin: 0px 20px;
   text-decoration: none;
@@ -116,8 +120,8 @@ nav > div > a {
 
 .btn-secondary {
   padding: 14px 22px;
-  background-color: transparent;
-  border: 1px solid var(--light-dark);
+  background: rgba(7, 12, 19, 0.04);
+  border: 1px solid rgba(7, 12, 19, 0.1);
 }
 
 /* Secondary headers */
@@ -166,4 +170,131 @@ nav > div > a {
   font-weight: 400px;
   font-size: 16px;
   line-height: 28px;
+}
+
+/* Projects section */
+
+/* Large section */
+.projects {
+  margin-top: 120px;
+}
+
+.project-list {
+  margin-top: 70px;
+}
+
+.project-card-big {
+  max-height: 550px;
+  display: flex;
+  align-items: center;
+  background-color: #ffefb5;
+}
+
+.big-project-text {
+  padding-left: 80px;
+  margin-top: auto;
+}
+
+.big-project-caption {
+  font-size: 16px;
+  font-family: var(--small-font);
+  font-weight: 400;
+}
+
+.project-btn {
+  margin: 80px 0px;
+}
+
+.project-image {
+  padding-top: 15px;
+  filter: drop-shadow(0px 40px 94px rgba(0, 0, 0, 0.19));
+}
+
+/* Small section */
+
+.project-card-small {
+  margin-top: 30px;
+  display: flex;
+}
+
+.project-case {
+  max-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.small-project-text {
+  margin-top: auto;
+}
+
+.project-image-small {
+  padding-top: 35px;
+  filter: drop-shadow(0px 54px 70px rgba(0, 0, 0, 0.15));
+}
+
+.small-project-paragraph {
+  font-family: var(--small-font);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 125%;
+}
+
+.view-project-first {
+  max-height: 400px;
+  background-image: url(./resources/images/app\ image-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.view-project-second {
+  max-height: 400px;
+  background-image: url(./resources/images/app\ image-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.view-project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 80px;
+  z-index: 50;
+  text-align: center;
+}
+
+.view-light {
+  background: rgba(0, 74, 255, 0.7);
+}
+
+.view-deep {
+  background: rgba(0, 43, 149, 0.7);
+}
+
+.view-project-text > button {
+  margin-top: 40px;
+}
+
+.view-project > div > p {
+  margin: 0;
+  padding: 0;
+}
+
+.light-blue-bg {
+  background: #e6f1ff;
+}
+
+.deep-blue-bg {
+  background: #5960ff;
+}
+
+.left-margin {
+  margin-left: 30px;
+}
+
+.right-margin {
+  margin-right: 30px;
 }
