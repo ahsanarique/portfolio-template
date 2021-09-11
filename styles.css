@@ -30,8 +30,11 @@ body {
 }
 
 header,
-main,
 footer {
+  padding: 0px 18vw;
+}
+
+main > section {
   padding: 0px 18vw;
 }
 
@@ -63,7 +66,22 @@ nav > div > a {
 /* Main header rules */
 
 .hero-section {
-  background-image: var(--header-bg);
+  background: radial-gradient(
+      circle at 100px top,
+      rgba(185, 255, 226, 1),
+      transparent 700px
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(205, 246, 255, 1),
+      transparent 700px
+    ),
+    radial-gradient(
+      circle at 1500px top,
+      rgba(255, 251, 218, 1),
+      transparent 700px
+    ),
+    var(--header-bg);
 }
 
 .main-header {
@@ -145,6 +163,16 @@ nav > div > a {
 
 .services {
   margin-top: 214px;
+  background: radial-gradient(
+      circle at 15% 50%,
+      rgba(213, 255, 198, 0.5),
+      transparent 500px
+    ),
+    radial-gradient(
+      circle at 85% 25%,
+      rgba(182, 255, 251, 0.5),
+      transparent 400px
+    );
 }
 
 .service-list {
@@ -156,7 +184,6 @@ nav > div > a {
 .service-card {
   margin: 0px 30px 30px 0px;
   max-width: 370px;
-  max-height: 402px;
   text-align: center;
   background-color: var(--white);
   border: none;
@@ -177,6 +204,11 @@ nav > div > a {
 /* Large section */
 .projects {
   margin-top: 120px;
+  background: radial-gradient(
+    circle at 10% 30%,
+    rgba(184, 255, 225, 0.5),
+    transparent 500px
+  );
 }
 
 .project-list {
@@ -301,9 +333,38 @@ nav > div > a {
 
 /* CV section */
 
+.cv-bg {
+  margin-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 48px;
+  background: radial-gradient(
+      circle at 50% 360px,
+      rgba(216, 255, 133, 1),
+      transparent 450px
+    ),
+    radial-gradient(
+      circle at 650px 500px,
+      rgba(255, 199, 0, 0.5),
+      transparent 500px
+    ),
+    radial-gradient(
+      circle at 1300px 500px,
+      rgba(255, 199, 0, 0.5),
+      transparent 500px
+    ),
+    radial-gradient(
+      circle at 650px 1200px,
+      rgba(196, 219, 254, 1),
+      transparent 500px
+    ),
+    radial-gradient(
+      circle at 1300px 1200px,
+      rgba(196, 219, 254, 1),
+      transparent 500px
+    );
+}
+
 .cv {
-  margin-top: 248px;
-  max-height: 1593px;
   padding: 110px 80px;
   background: var(--white);
   border: 1px solid #ecebe6;
@@ -405,7 +466,6 @@ nav > div > a {
   margin-top: 150px;
   padding: 100px 18vw;
   background: #070c13;
-  max-height: 853px;
 }
 
 .feedback-paragraph {
@@ -470,6 +530,11 @@ nav > div > a {
 
 .footer {
   margin-top: 100px;
+  background: radial-gradient(
+    circle at bottom,
+    rgba(246, 255, 142, 0.5),
+    transparent 700px
+  );
 }
 
 .footer-text {
