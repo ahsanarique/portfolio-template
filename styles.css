@@ -320,22 +320,29 @@ nav > div > a {
   -webkit-text-fill-color: transparent;
 }
 
-.work-education-title > h6 {
-  margin: 0;
-  padding: 0;
-}
-
-.work-education-title {
-  display: flex;
-  justify-content: space-between;
+.cv-subtitle {
   font-family: var(--large-font);
   font-weight: 500;
   font-size: 30px;
   line-height: 125%;
-  color: var(--dark-3);
   padding-top: 78px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #e8e8e8;
+}
+
+.faded-text {
+  color: var(--dark-3);
+}
+
+.cv-subtitle > h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.cv-dual-title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .education-title {
@@ -348,7 +355,7 @@ nav > div > a {
 }
 
 .education {
-  flex-grow: 0.15;
+  flex-grow: 0.18;
 }
 
 .work-education-paragraph {
@@ -357,6 +364,39 @@ nav > div > a {
   font-weight: 500;
   line-height: 170%;
   color: var(--dark-2);
+}
+
+.client-list {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client-list > img {
+  margin-right: 120px;
+  margin-bottom: 60px;
+}
+
+.skills-tools-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tools-title {
+  flex-grow: 0.26;
+}
+
+.skills {
+  font-family: var(--large-font);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 125%;
+  width: 70%;
+}
+
+.tools > img {
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 /* Feedback section */
