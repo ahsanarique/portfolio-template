@@ -1,6 +1,6 @@
 # Portfolio Landing Page design using raw HTML and CSS
 
-## Live Demo: TBA
+## Live Demo: https://ahsanarique.github.io/portfolio-template/
 
 ## Technologies:
 
