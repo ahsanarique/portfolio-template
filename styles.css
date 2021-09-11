@@ -320,6 +320,45 @@ nav > div > a {
   -webkit-text-fill-color: transparent;
 }
 
+.work-education-title > h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.work-education-title {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--large-font);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 125%;
+  color: var(--dark-3);
+  padding-top: 78px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.education-title {
+  flex-grow: 0.4;
+}
+
+.work-education-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education {
+  flex-grow: 0.15;
+}
+
+.work-education-paragraph {
+  font-family: var(--small-font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 170%;
+  color: var(--dark-2);
+}
+
 /* Feedback section */
 
 .feedbacks {
