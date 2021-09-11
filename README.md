@@ -7,4 +7,6 @@
 - HTML5
 - CSS3
 
-## Screenshot: TBA
+## Screenshot:
+
+![full page screenshot](./screenshot/screencapture-fullpage.png)
