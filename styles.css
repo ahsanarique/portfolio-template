@@ -533,13 +533,13 @@ nav > div > a {
   background: radial-gradient(
     circle at bottom,
     rgba(246, 255, 142, 0.5),
-    transparent 700px
+    transparent 900px
   );
 }
 
 .footer-text {
   text-align: center;
-  margin-top: 250px;
+  padding-top: 150px;
   margin-bottom: 150px;
 }
 
