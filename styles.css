@@ -464,7 +464,8 @@ nav > div > a {
 
 .feedbacks {
   margin-top: 150px;
-  padding: 100px 18vw;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #070c13;
 }
 
