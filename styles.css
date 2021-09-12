@@ -53,10 +53,6 @@ main > section {
   display: flex;
 }
 
-#no-margin {
-  margin: 0;
-}
-
 nav > div > a {
   margin: 0px 20px;
   text-decoration: none;
@@ -162,16 +158,16 @@ nav > div > a {
 /* Services section */
 
 .services {
-  margin-top: 214px;
+  padding-top: 170px;
   background: radial-gradient(
       circle at 15% 50%,
       rgba(213, 255, 198, 0.5),
       transparent 500px
     ),
     radial-gradient(
-      circle at 85% 25%,
+      circle at 85% 35%,
       rgba(182, 255, 251, 0.5),
-      transparent 400px
+      transparent 500px
     );
 }
 
@@ -225,6 +221,10 @@ nav > div > a {
 .big-project-text {
   padding-left: 80px;
   margin-top: auto;
+}
+
+.big-project-text > h2 {
+  margin: 0;
 }
 
 .big-project-caption {
@@ -334,23 +334,22 @@ nav > div > a {
 /* CV section */
 
 .cv-bg {
-  margin-top: 200px;
-  padding-top: 100px;
+  padding-top: 250px;
   padding-bottom: 48px;
   background: radial-gradient(
-      circle at 50% 360px,
-      rgba(216, 255, 133, 1),
+      circle at 50% 450px,
+      rgba(216, 255, 133, 0.5),
       transparent 450px
     ),
     radial-gradient(
-      circle at 650px 500px,
+      circle at 600px 600px,
       rgba(255, 199, 0, 0.5),
-      transparent 500px
+      transparent 450px
     ),
     radial-gradient(
-      circle at 1300px 500px,
+      circle at 1300px 600px,
       rgba(255, 199, 0, 0.5),
-      transparent 500px
+      transparent 450px
     ),
     radial-gradient(
       circle at 650px 1200px,
