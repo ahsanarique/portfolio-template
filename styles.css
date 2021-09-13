@@ -443,7 +443,7 @@ nav > div > a {
 }
 
 .tools-title {
-  flex-grow: 0.37;
+  flex-grow: 0.27;
 }
 
 .skills {
@@ -451,12 +451,12 @@ nav > div > a {
   font-weight: 800;
   font-size: 20px;
   line-height: 125%;
-  width: 70%;
+  width: 85%;
 }
 
 .tools > img {
-  margin-top: 20px;
-  margin-right: 50px;
+  margin-top: 25px;
+  margin-right: 40px;
 }
 
 /* Feedback section */
