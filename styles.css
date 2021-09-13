@@ -125,10 +125,14 @@ nav > div > a {
   outline: none;
 }
 
+.btn > img {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
 .btn-primary {
   padding: 18px 24px;
   background-color: var(--dark-1);
-
   border: none;
 }
 
@@ -216,6 +220,7 @@ nav > div > a {
   display: flex;
   align-items: center;
   background-color: #ffefb5;
+  overflow: hidden;
 }
 
 .big-project-text {
@@ -247,6 +252,7 @@ nav > div > a {
 .project-card-small {
   margin-top: 30px;
   display: flex;
+  overflow: hidden;
 }
 
 .project-case {
