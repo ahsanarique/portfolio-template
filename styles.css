@@ -551,8 +551,9 @@ nav > div > a {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.footer-logo > img {
+.footer-logo > a {
   margin-right: 18px;
+  text-decoration: none;
 }
 
 .footer-nav > a {
